@@ -9,6 +9,10 @@
     transform: translateX(-50%);
 }
 
+.wall {
+    background-image: url(./img/wall.png);
+}
+
 .board {
     background: url(./img/cork.png) no-repeat center center;
     background-size: cover;
