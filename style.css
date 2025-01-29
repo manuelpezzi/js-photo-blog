@@ -30,6 +30,11 @@
     position: relative;
     width: 250px;
     margin: 0 auto;
+    transition: transform 0.3s ease-in-out;
+}
+
+.polaroid:hover {
+    transform: rotate(45deg);
 }
 
 .photo {
@@ -43,6 +48,7 @@ h1 {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+
 }
 
 .data {
@@ -50,4 +56,5 @@ h1 {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
+
 }
