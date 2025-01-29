@@ -12,6 +12,7 @@ fetch("https://lanciweb.github.io/demo/api/pictures/")
                      <img class="pin" src="img/pin.svg" alt="pin">
                      <img class ="img-fluid photo" src="${pic.url}" alt="${pic.tiltle}">
                      <p>${pic.title}</p>
+                     <p class = "data">${pic.date}</p>
         
         </div>
         `;
