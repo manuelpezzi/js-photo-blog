@@ -11,15 +11,20 @@
 
 .wall {
     background-image: url(./img/wall.png);
+    height: 20vh;
 }
 
 .board {
-    background: url(./img/cork.png) no-repeat center center;
-    background-size: cover;
+    background: url(./img/cork.png);
+    background-size: contain;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    height: 80vh;
 }
+
+
+
 
 .polaroid {
     background: white;
@@ -37,6 +42,13 @@
     transform: rotate(45deg);
 }
 
+.polaroid:hover .pin {
+    display: none;
+}
+
+
+
+
 .photo {
     width: 200px;
     height: 200px;
@@ -48,7 +60,8 @@ h1 {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-
+    font-size: 60px !important;
+    padding-top: 3%;
 }
 
 .data {
