@@ -71,3 +71,31 @@ h1 {
     font-style: normal;
 
 }
+
+.modalOverlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: rgb(0, 0, 0, 0.8);
+    z-index: 999;
+    align-items: center;
+    justify-content: center;
+}
+
+.modalContent {
+
+    padding: 20px;
+    border-radius: 10px;
+
+    text-align: center;
+    position: relative;
+
+}
+
+#imgMoldal {
+    max-width: 90%;
+    max-height: 87vh;
+    border-radius: 5px;
+}
